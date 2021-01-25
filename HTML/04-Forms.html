@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- organise information, user input -->
+    <!-- Method = How the information is passed to a server -->
+    <!-- GET = Arguments are appended to the URL of the request -->
+    <!--POST =information is sent in the body of the text  -->
+    
+    <!-- COULD SAY GET/POST-->
+    <form method="POST" action="">
+        <label>Enter your username here: </label>
+        <input type ="text" name="username" required/>
+        <br/>
+        <label>Enter yuor password here: </label>
+        <input type ="password" name="pwd"/>
+        <br/>
+        <label>Enter your email here: </label>
+        <input type ="email" name="email" required/>
+        <br/>
+        <label>Enter your phone number here: </label>
+        <input type ="tel" name="tel" value="+44"/>
+        <br/>
+        <label>URL of company you work at: </label>
+        <input type ="url" name="url"/>
+        <br/> 
+
+        <label>Gender:</label>
+        <input type="radio" name="Gender" value="Male"/>Male
+        <input type="radio" name="Gender" value="Female"/>Female
+        <input type="radio" name="Gender" value="Prefer Not To Say"/>Prefer Not to Say
+        <br/>
+
+        <label>What food do you like</label>
+        <input type="checkbox">TGIs</input>
+        <input type="checkbox">Sushi</input>
+        <input type="checkbox">KFC</input>
+        <input type="checkbox">Nandos</input>
+        <br/>
+
+        <button type="submit">submit</button>
+        <button type="reset">cancel</button>
+
+    </form>
+    
+</body>
+</html>
